@@ -1,0 +1,13 @@
+<h1>Emvideos</h1>
+
+{{#each}}
+  <li>
+  	{{#link-to 'emvideo' this}}
+      {{url}}
+    {{/link-to}}
+  </li>
+  <button {{action 'Delete' this}}>X</button>
+{{/each}}
+ 
+{{outlet}}
+

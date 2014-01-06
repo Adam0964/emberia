@@ -1,0 +1,333 @@
+/*######################################
+#									 #
+#    EmberStyle.css                  #
+#									 #
+#    KODEFUGE                        #
+#									 #
+#    @12/24/13						 #
+#									 #
+######################################*/
+
+
+
+/* fonts */
+@font-face {
+  font-family:'chancur';
+  src: url('chancur.ttf'); /* here you go, IE */
+  src: local  ('☺') url('chancur.ttf'), url('fonts/chancur.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'Chopin';
+  src: url('ChopinScript.otf'); /* everyone else take this */
+  src: local('☺'), url('ChopinScript.otf') format('truetype');
+}
+
+@font-face {
+  font-family:'windsong';
+  src: url('windsong/windsong.ttf'); /* here you go, IE */
+  src: local  ('☺') url('windsong/windsong.ttf'), url('fonts/windsong/windsong.ttf') format('truetype');
+}
+@font-face {
+  font-family:'Sensation_Light';
+  src: url('Sensation_Light.ttf'); /* here you go, IE */
+  src: local  ('☺') url('Sensation_Light.ttf'), url('fonts/Sensation_Light.ttf') format('truetype');
+}
+
+
+a:link {
+	font-family: 'Helvetica light', Helvetica, Arial, sans-serif;
+	text-decoration:none;
+	color: white;
+}
+
+a:active {
+	color: orange;
+}
+
+.embertainer a:link:hover {
+	color: orange;
+}
+
+.embertainer {
+	padding-top: 50px;
+	padding-right: 25px;
+	text-align: center;
+	color: white;
+}
+
+.embertainer table {
+	margin-left: 70%;
+}
+
+.embertainer td {
+	padding-right: 25px;
+}
+
+
+.embertainer h3 {
+	width: 90px;
+	height: 90px;
+	padding-top: 32px;
+	border-radius: 50%;
+	border: solid 3px white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.embertainer h3:hover {
+	background-color: #FF6347;
+}
+
+.embertainer h4 {
+	width: 100px;
+	height: 50px;
+	padding: 13px;
+	/*border: solid 2px white;*/
+}
+
+.statement {
+	width: 800px;
+	border: solid 3px white;
+	border-radius: 5px;
+	height: 120px;
+	margin-top: 60px;
+	position: relative;
+	padding: 13px;
+	text-align: center;
+}
+
+.statement h1 {
+	font-family: 'Helvetica light', Helvetica, Arial, sans-serif;
+	color: orange;
+}
+
+.Oauth table {
+	margin-left: 30px;
+	margin-top: 70px;
+	position:relative;
+}
+
+.Oauth button {
+	width: 250px;
+	height: 80px;
+	border: solid 3px white;
+	border-radius: 6px;
+	margin-right: 25px;
+	box-shadow: 8px 8px 5px navy;
+}
+
+.Oauth button:hover {
+	opacity: .3;
+}
+
+#twit {
+	background-color: #1E90FF;
+}
+
+#git {
+	background-color: rgb(96, 176, 68);
+}
+
+#goog {
+	background-color: #DD4B39;
+}
+
+.jumbotron-index {
+  height: auto;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: -32px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #fefefe;
+}
+
+.jumbotron-about {
+  height: auto;
+  padding: 25px;
+  margin-bottom: 30px;
+  margin-top: -32px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: rgb(96, 176, 68);
+}
+
+.text-flow {
+	-moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+    text-align: justify;
+}
+
+
+.jumbotron-howto {
+  height: auto;
+  padding: 25px;
+  margin-bottom: 30px;
+  margin-top: -32px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #1E90FF;
+}
+
+.jumbotron-about,  
+.jumbotron-howto p  {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 33px;
+}
+
+.title h4 {
+	width: 130px;
+	height: 55px;
+	padding: 10px;
+	border: solid 1.5px white;
+	border-radius: 15px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 35px;
+	color: orange;
+	text-align: center;
+}
+
+.emo {
+	width:  45px;
+	height: 45px;
+	background-image: url(emo.png);
+}
+
+.footer {
+  height: 280px;
+  padding: 25px;
+  margin-bottom: 0px;
+  margin-top: -32px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: white;
+  text-align: center;
+  background-color: #FF6347;
+
+}
+
+.footer p {
+	font-size: 13px;
+}
+
+#icon {
+	
+	height: 200px;
+	display: inline-block;
+	padding-right: 40px;
+	font-family: 'Chopin';
+	font-size: 22px;
+	font-weight: bolder;
+	font-style: italic;
+	text-align: center;
+}
+
+#icon h2, h5 {
+	font-family: 'Helvetica Light';
+	font-style: normal;
+	color: #280000;
+}
+
+.git {
+	width:  60px;
+	height: 60px;
+	/*background-image: url(git.png);*/
+	background-color: rgb(96, 176, 68);
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.in {
+	width:  60px;
+	height: 60px;
+	/*background-image: url(in.png);*/
+	background-color: teal; 
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 20px;
+}
+.twit {
+	width:  60px;
+	height: 60px;
+	/*background-image: url(twit.png);*/
+	background-color: #1E90FF;
+	border-radius: 50%;
+	text-align: center;
+}
+.goog {
+	width:  60px;
+	height: 60px;
+	/*background-image: url(goog.png);*/
+	background-color: #DD4B39;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.face {
+	width:  60px;
+	height: 60px;
+	/*background-image: url(goog.png);*/
+	background-color: #3b5998;
+	border-radius: 50%;
+	text-align: center;
+}
+/* Hover effects*/
+
+.git:hover {
+	-webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.in:hover {
+	-webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.twit:hover {
+	-webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.goog:hover {
+	-webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.face:hover {
+	-webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+#spa1 {
+
+}
+
+#spa2 {
+	margin-top: 600px;
+}
+

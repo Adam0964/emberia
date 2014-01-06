@@ -1,0 +1,8 @@
+<form {{action 'create' this on='submit'}} >
+   {{#if isSaving}}
+     <p>Saving record...</p>
+   {{/if}}
+{{input type='text' value=url}}
+<button>Add a new emvideo</button>
+<button>Delete the current emvideo</button>
+</form>

@@ -1,0 +1,2 @@
+module EmvideosHelper
+end
